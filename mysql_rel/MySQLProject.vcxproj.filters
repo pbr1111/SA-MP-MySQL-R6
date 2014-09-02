@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{d1a6e7c7-3cec-44ba-9a4d-73b97de3a020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MySQL">
+      <UniqueIdentifier>{008659ee-81ff-4ff9-98a2-685e2c4efac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AMX">
+      <UniqueIdentifier>{b3f3e953-a8d8-4844-b94c-6f9479223134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9f5b3e17-bed0-4892-b7fb-45919c2e3a6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MySQL">
+      <UniqueIdentifier>{ea70cdfb-0ec3-4e76-9c4b-1668360a3760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AMX">
+      <UniqueIdentifier>{708e996d-7cbe-474b-aa51-81868b8917f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\CMutex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CMySQLHandler.cpp">
+      <Filter>Source Files\MySQL</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CScripting.cpp">
+      <Filter>Source Files\MySQL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\amxplugin.cpp">
+      <Filter>Source Files\AMX</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CAmxString.cpp">
+      <Filter>Source Files\AMX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\amx\getch.c">
+      <Filter>Source Files\AMX</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\CMutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CMySQLHandler.h">
+      <Filter>Header Files\MySQL</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CScripting.h">
+      <Filter>Header Files\MySQL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\amx\amx.h">
+      <Filter>Header Files\AMX</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CAmxString.h">
+      <Filter>Header Files\AMX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\amx\getch.h">
+      <Filter>Header Files\AMX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\plugin.h">
+      <Filter>Header Files\AMX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\plugincommon.h">
+      <Filter>Header Files\AMX</Filter>
+    </ClInclude>
+    <ClInclude Include="source\resource.h">
+      <Filter>Header Files\AMX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\amx\sclinux.h">
+      <Filter>Header Files\AMX</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mysql.def" />
+  </ItemGroup>
+</Project>
